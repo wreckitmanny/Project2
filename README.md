@@ -1,4 +1,4 @@
-  One application of the order statistic query algorithm (Rand-Select) that we discussed in
+One application of the order statistic query algorithm (Rand-Select) that we discussed in
 class is finding the locations that are nearby a given query point. So, for example, if we are
 working for a company that has many stores across the country, we may want to help a user
 find the stores that are closest to their current location (which in practice might be provided by
@@ -8,7 +8,7 @@ discussed in class, the expected running time of the order statistic query algor
 where n here would be the number of stores. This would practically be a very fast running time
 even if we have thousands of stores to search through.
 
-  In this project, we will perform this task from the perspective of Whataburger and
+In this project, we will perform this task from the perspective of Whataburger and
 Starbucks. In this project, you will read in the IDs, addresses, latitude, and longitude of each
 store location from a file and save it in an “array-like” data structure (a vector, ArrayList, etc. is
 fine as well). You will need to implement the Rand-Select() algorithm we covered in class (as
